@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
 }
+
 .image-row {
     display: flex;
     justify-content: space-between;
@@ -9,7 +10,13 @@ body {
 }
 
 .image-row .w3-section {
-    flex: 1;
-    max-width: 30%; /* Adjust the width as needed */
+    flex: 1 1 30%; /* Allow sections to flex and take up 30% of the container */
+    max-width: 30%; /* Ensure the sections do not exceed 30% of the container */
     margin: 10px;
+    text-align: center; /* Center-align the text */
+}
+
+.image-row img {
+    width: 100%; /* Ensure images fill the section */
+    height: auto; /* Maintain aspect ratio */
 }
