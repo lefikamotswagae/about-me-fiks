@@ -36,7 +36,7 @@ nav a:hover {
     padding: 20px;
 }
 .image-row {
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
